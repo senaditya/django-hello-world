@@ -1,1 +1,24 @@
-HI
+{% extends 'main/base.html'%}
+{% block content %}
+
+
+
+<div class="container-fluid d-flex">
+    <div class="toast" role="alert" aria-live="polite" aria-atomic="true" data-bs-delay="10000">
+        <div role="alert" aria-live="assertive" aria-atomic="true">...</div>
+    </div>
+    {% for tut in tutorials %}
+    <div class="card m-3" style="width: 20rem;">
+        <div class="card-body">
+            <h5 class="card-title">{{tut.title}}</h5>
+            <h6 class="card-subtitle">{{tut.published}}</h6>
+            <p class="card-text">{{tut.content.html|safe}}</p>
+            <a href="#" class="card-link">Check here</a>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+
+
+{% endblock %}

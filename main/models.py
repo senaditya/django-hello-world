@@ -1,6 +1,7 @@
 from django.db import models
 from django.utils import timezone
 from django_quill.fields import QuillField
+from tinymce.models import HTMLField
 
 
 # Create your models here.

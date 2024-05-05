@@ -10,7 +10,6 @@ class TutorialAdmin(admin.ModelAdmin):
         ("Title/Date", {"fields": ["title", "published"]}),
         ("Content", {"fields": ["content"]}),
     ]
-    
     # formfield_overrides = {models.TextField: {"widget": QuillField()}}
 
 

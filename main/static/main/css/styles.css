@@ -1,0 +1,39 @@
+* {
+    /* background-color: black; */
+    /* color: white; */
+}
+
+.ql-syntax {
+    background-color: grey;
+    color: azure;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.hljs-function {
+    /* color: orange; */
+    background-color: grey;
+}
+
+.hljs-keyword {
+    color: orange;
+    background-color: grey;
+}
+
+.hljs-params {
+    color: rgb(37, 37, 37);
+    background-color: grey;
+}
+
+.hljs-title {
+    background-color: grey;
+}
+
+.hljs-string {
+    color: lightgreen;
+    background-color: grey;
+}
+
+#notice{
+    
+}
