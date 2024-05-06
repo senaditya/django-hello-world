@@ -1,4 +1,5 @@
 {
+    "version": 2,
     "builds": [
         {
             "src": "DJ/wsgi.py",
@@ -9,10 +10,10 @@
             }
         },
         {
-            "src": "build.sh",
+            "src": "build_files.sh",
             "use": "@vercel/static-build",
             "config": {
-                "distDir": "staticfiles_build"
+                "distDir": "staticfiles"
             }
         }
     ],
